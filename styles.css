@@ -1,4 +1,4 @@
-body {
+body{
     margin: 0;
     padding: 0;
     background: url(background.jpeg) no repeat;
@@ -45,5 +45,9 @@ ul{
     color: white;
     text-decoration: none;
     font-size: 60px;  
+    transition: all ease-in-out 250ms;
+}
+.box li a:hover{
+    color: #b9b9b9;
 }
 
