@@ -4,12 +4,12 @@ body{
 }
 .box{
     width: 450 px;
-    background: rgba(0, 0, 0, 0.4);
+    background: #396afc;
     padding: 40px;
     text-align: center;
     margin: auto;
     margin-top: 5%;
-    color: white;
+    color: black;
     font-family: 'Century Gothic', sans-serif;    
 }
 .box-img{
