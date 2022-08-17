@@ -4,12 +4,12 @@ body{
 }
 .box{
     width: 450 px;
-    background: #396af;
+    background: rgba(0, 0, 0, 0.4);
     padding: 40px;
     text-align: center;
     margin: auto;
     margin-top: 5%;
-    color: #396af;
+    color: white;
     font-family: 'Century Gothic', sans-serif;    
 }
 .box-img{
@@ -46,6 +46,6 @@ ul{
     transition: all ease-in-out 250ms;
 }
 .box li a:hover{
-    color: #396af;
+    color: #b9b9b9;
 }
 
