@@ -10,7 +10,7 @@ body{
     margin: auto;
     margin-top: 5%;
     color: black;
-    font-family: 'Century Gothic', sans-serif;    
+    font-family: 'Monaco', monospace;    
 }
 .box-img{
     border-radius: 50%;
