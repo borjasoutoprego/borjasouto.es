@@ -11,8 +11,6 @@ body{
     margin-top: 5%;
     color: black;
     font-family: 'Monaco', monospace;  
-    display:flex;
-    flex-wrap: wrap  
 }
 .box-img{
     border-radius: 50%;
@@ -31,6 +29,8 @@ body{
 }
 .box p{
     text-align: justify;
+    display:flex;
+    flex-wrap: wrap;
 }
 ul{
     margin: 0;
