@@ -29,8 +29,6 @@ body{
 }
 .box p{
     text-align: justify;
-    display:flex;
-    flex-wrap: wrap;
 }
 ul{
     margin: 0;
