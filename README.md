@@ -1,3 +1,3 @@
-## Personal website: borjasouto.es
+# Personal website: [borjasouto.es] (borjasouto.es)
 My personal portfolio. 
-Made with ´HTML´ and ´Tailwind CSS´.
+Made with `HTML` and `Tailwind CSS`.
