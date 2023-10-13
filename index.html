@@ -10,6 +10,20 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   <link rel="icon" href="B.png">
+  <style>
+    .image-container {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hover-animation {
+      transition: transform 0.3s;
+    }
+
+    .hover-animation:hover {
+      transform: rotate(360deg);
+    }
+  </style>
 </head>
 
 <body class="bg-[#141b1f] font-['Open_Sans']">
@@ -17,10 +31,13 @@
     <div class="h-[100px] flex flex-row">
       <div class="grow flex justify-center">
         <div class="w-full md:w-[50%] flex flex-col justify-center">
-          <div class="flex text-2xl md:text-xl ml-14">
-            <img src="B.png" alt="" width="25" height="25">
-            <a href="./" class="ml-12 hover:text-gray-500 font-bold cursor-pointer">Home</a>
-            <a href="./CV.pdf" class="ml-8 hover:text-red-500 font-bold cursor-pointer" target="_blank">Resume 📝</a>
+          <div class="flex text-2xl md:text-xl ml-16">
+            <a href="./" class="cursor-pointer">
+              <div class="image-container">
+                <img src="B.png" alt="" width="25" height="30" class="hover-animation">
+              </div>
+            </a>
+            <a href="./CV.pdf" class="ml-14 hover:text-red-500 font-bold cursor-pointer" target="_blank">Resume 📝</a>
           </div>
           <div>
           </div>
@@ -32,7 +49,7 @@
         <div class="bg-gray-700 w-[50%] h-[50%] md:w-[15%] md:h-[15%] rounded-full">
           <img src="profile.png" alt="profile" class="w-full h-full rounded-full object-cover" target="_blank">
         </div>
-        <div class="flex flex-col ml-4">
+        <div class="flex flex-col ml-12">
           <div class="font-bold text-[5.1rem] md:w-[50%] md:h-[50%]">Borja</div>
           <div class="mt-2 font-bold text-6xl md:w-[50%] md:h-[50%]">Souto Prego</div>
         </div>
